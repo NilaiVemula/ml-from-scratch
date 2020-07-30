@@ -139,6 +139,12 @@ class LinearRegression:
         adj_r2 = 1 - (((1 - self.r_squared) * (self.n - 1)) / (self.n - k - 1))
         return adj_r2
 
+    # hypothesis testing
+    def f_statistic(self, p=0.05):
+        f = ((self.total_sum_of_squares - self.residual_sum_of_squares) / p) / (
+                    self.residual_sum_of_squares / (self.n - p - 1))
+        return f
+
     def __str__(self):
         """ string representation of model is linear equation"""
         return 'y = {} + {} * x'.format(str(self.b0), str(self.b1))
