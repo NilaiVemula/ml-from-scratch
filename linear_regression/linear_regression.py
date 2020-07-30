@@ -70,7 +70,7 @@ class LinearRegression:
         return b1, b0
 
     def predict(self, x):
-        y_hat = self.b0 - self.b1 * x
+        y_hat = self.b0 + self.b1 * x
         return y_hat
 
     # all properties below are for evaluating error
