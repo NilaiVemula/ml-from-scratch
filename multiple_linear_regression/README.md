@@ -9,7 +9,7 @@ where <img src="/multiple_linear_regression/tex/7ccca27b5ccc533a2dd72dc6fa28ed84
 To simplify this notation and make it easier to program, we can re-write this in terms of matrices as:
 <p align="center"><img src="/multiple_linear_regression/tex/80781d4d815cdeee671e61d20352f026.svg?invert_in_darkmode&sanitize=true" align=middle width=95.25057795pt height=14.611878599999999pt/></p>
  where:
-<p align="center"><img src="/multiple_linear_regression/tex/d3320359b51727636adcbc3bc733aa91.svg?invert_in_darkmode&sanitize=true" align=middle width=558.0957145499999pt height=88.76800184999999pt/></p>
+<p align="center"><img src="/multiple_linear_regression/tex/8219ed81c855893948bfdab2cf0da1b2.svg?invert_in_darkmode&sanitize=true" align=middle width=500.96855819999996pt height=179.71811714999998pt/></p>
 
 In a least-squares optimization, we try to minimize the sum of squared residuals (SSR) by optimizing our selection of <img src="/multiple_linear_regression/tex/885c729678a69db7f085b75c99d92ae2.svg?invert_in_darkmode&sanitize=true" align=middle width=10.16555099999999pt height=22.831056599999986pt/>. This is accomplished by defining our model predictions as:
 <p align="center"><img src="/multiple_linear_regression/tex/96e54dbe17640f2cd935fbe6e9ca8852.svg?invert_in_darkmode&sanitize=true" align=middle width=68.8837446pt height=18.9497979pt/></p>
