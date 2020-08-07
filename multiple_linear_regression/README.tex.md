@@ -9,10 +9,13 @@ $$
 where $\epsilon$ is the error in the model.
 
 To simplify this notation and make it easier to program, we can re-write this in terms of matrices as:
+
 $$
 \mathbf{y} = \mathbf{X} \cdot \mathbf{\beta} + \mathbf{\epsilon}
 $$
- where:
+
+where:
+ 
 $$
 \mathbf{y} = \begin{bmatrix} y_1\\ 
 y_2\\ 
@@ -24,7 +27,9 @@ y_k
 1 & x_{21} & x_{22} & ... & x_{2k} \\
 1 & \vdots & \vdots & \ddots & \vdots \\
 1 & x_{n1} & x_{n2} & ... & x_{nk}
-\end{bmatrix} \\
+\end{bmatrix}
+
+\\
 
 \mathbf{\beta} = \begin{bmatrix} \beta_1\\ 
 \beta_2\\ 
@@ -40,19 +45,27 @@ y_k
 $$
 
 In a least-squares optimization, we try to minimize the sum of squared residuals (SSR) by optimizing our selection of $\mathbf{\beta}$. This is accomplished by defining our model predictions as:
+
 $$
 \hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
 $$
+
 and solving for $\hat{\beta}$ by:
+
 $$
-\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
-\mathbf{X}^T \hat{\mathbf{y}} = \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
-(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
+\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}
+
+\\
+
+\mathbf{X}^T \hat{\mathbf{y}} = \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
+
+\\
+
+(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
+
+\\
+
 (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = \hat{\mathbf{\beta}}.
 $$
+
 Finally, we evaluate our model by looking at the residuals.
-$$
-
-$$
-
-
