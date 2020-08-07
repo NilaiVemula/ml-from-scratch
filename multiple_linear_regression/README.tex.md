@@ -25,6 +25,7 @@ y_k
 1 & \vdots & \vdots & \ddots & \vdots \\
 1 & x_{n1} & x_{n2} & ... & x_{nk}
 \end{bmatrix} \\
+
 \mathbf{\beta} = \begin{bmatrix} \beta_1\\ 
 \beta_2\\ 
 ...\\
