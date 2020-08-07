@@ -5,7 +5,7 @@ import math
 class LinearRegression:
     """
     A class to describe a simple linear regression model to describe the relationship between
-    an independent variable x and a dependent variable y
+    an independent variable x and a dependent variable y.
     """
 
     def __init__(self, x, y):
