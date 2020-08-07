@@ -7,15 +7,19 @@ Multiple linear regression extends simple linear regression in one important way
 where <img src="/multiple_linear_regression/tex/7ccca27b5ccc533a2dd72dc6fa28ed84.svg?invert_in_darkmode&sanitize=true" align=middle width=6.672392099999992pt height=14.15524440000002pt/> is the error in the model.
 
 To simplify this notation and make it easier to program, we can re-write this in terms of matrices as:
+
 <p align="center"><img src="/multiple_linear_regression/tex/80781d4d815cdeee671e61d20352f026.svg?invert_in_darkmode&sanitize=true" align=middle width=95.25057795pt height=14.611878599999999pt/></p>
- where:
-<p align="center"><img src="/multiple_linear_regression/tex/8219ed81c855893948bfdab2cf0da1b2.svg?invert_in_darkmode&sanitize=true" align=middle width=500.96855819999996pt height=179.71811714999998pt/></p>
+
+where:
+ 
+<p align="center"><img src="/multiple_linear_regression/tex/70ca6ed7eceeabf6f153b919cf062ea1.svg?invert_in_darkmode&sanitize=true" align=middle width=502.3383882pt height=179.71811714999998pt/></p>
 
 In a least-squares optimization, we try to minimize the sum of squared residuals (SSR) by optimizing our selection of <img src="/multiple_linear_regression/tex/885c729678a69db7f085b75c99d92ae2.svg?invert_in_darkmode&sanitize=true" align=middle width=10.16555099999999pt height=22.831056599999986pt/>. This is accomplished by defining our model predictions as:
+
 <p align="center"><img src="/multiple_linear_regression/tex/96e54dbe17640f2cd935fbe6e9ca8852.svg?invert_in_darkmode&sanitize=true" align=middle width=68.8837446pt height=18.9497979pt/></p>
+
 and solving for <img src="/multiple_linear_regression/tex/2012e6a4e80d4d65bda472f3676c43ec.svg?invert_in_darkmode&sanitize=true" align=middle width=10.562281949999988pt height=31.50689519999998pt/> by:
-<p align="center"><img src="/multiple_linear_regression/tex/426e28715c4e82b130c4f1b6d169db10.svg?invert_in_darkmode&sanitize=true" align=middle width=583.7102155499999pt height=19.8630366pt/></p>
+
+<p align="center"><img src="/multiple_linear_regression/tex/3700d6a0f67296205531ec5a6d5b041b.svg?invert_in_darkmode&sanitize=true" align=middle width=360.11971379999994pt height=90.68497185pt/></p>
+
 Finally, we evaluate our model by looking at the residuals.
-<p align="center"><img src="/multiple_linear_regression/tex/e7e1fce898b1583cb28cc71db94ffdd5.svg?invert_in_darkmode&sanitize=true" align=middle width=0.0pt height=0.0pt/></p>
-
-
