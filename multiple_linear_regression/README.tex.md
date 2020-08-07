@@ -54,6 +54,7 @@ and solving for $\hat{\beta}$ by:
 
 $$
 \begin{align}
+
 \hat{\mathbf{y}} &= \mathbf{X} \cdot \hat{\mathbf{\beta}}
 
 \\
@@ -67,6 +68,7 @@ $$
 \\
 
 (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} &= \hat{\mathbf{\beta}}.
+
 \end{align}
 $$
 
