@@ -53,19 +53,21 @@ $$
 and solving for $\hat{\beta}$ by:
 
 $$
-\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}
+\begin{align}
+\hat{\mathbf{y}} &= \mathbf{X} \cdot \hat{\mathbf{\beta}}
 
 \\
 
-\mathbf{X}^T \hat{\mathbf{y}} = \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
+\mathbf{X}^T \hat{\mathbf{y}} &= \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
 
 \\
 
-(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
+(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} &= (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
 
 \\
 
-(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = \hat{\mathbf{\beta}}.
+(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} &= \hat{\mathbf{\beta}}.
+\end{align}
 $$
 
 Finally, we evaluate our model by looking at the residuals.
