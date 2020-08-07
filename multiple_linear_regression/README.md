@@ -20,6 +20,6 @@ In a least-squares optimization, we try to minimize the sum of squared residuals
 
 and solving for <img src="/multiple_linear_regression/tex/2012e6a4e80d4d65bda472f3676c43ec.svg?invert_in_darkmode&sanitize=true" align=middle width=10.562281949999988pt height=31.50689519999998pt/> by:
 
-<p align="center"><img src="/multiple_linear_regression/tex/575da41bc9a45e67fedf0c2144c4e585.svg?invert_in_darkmode&sanitize=true" align=middle width=254.96352255pt height=80.82195825pt/></p>
+<p align="center"><img src="/multiple_linear_regression/tex/d0be6a3ef1011ef3b61f7822fcdf01ae.svg?invert_in_darkmode&sanitize=true" align=middle width=254.96352255pt height=80.82195825pt/></p>
 
 Finally, we evaluate our model by looking at the residuals.
