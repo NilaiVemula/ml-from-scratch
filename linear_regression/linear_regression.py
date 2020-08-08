@@ -133,12 +133,6 @@ class LinearRegression:
         r = numerator / denominator
         return r
 
-    @property
-    def adjusted_r_squared(self):
-        k = 1  # number of independent regressors
-        adj_r2 = 1 - (((1 - self.r_squared) * (self.n - 1)) / (self.n - k - 1))
-        return adj_r2
-
     # hypothesis testing
     def f_statistic(self, p=0.05):
         f = ((self.total_sum_of_squares - self.residual_sum_of_squares) / p) / (
