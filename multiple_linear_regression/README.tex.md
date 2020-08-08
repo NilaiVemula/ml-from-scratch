@@ -125,4 +125,4 @@ $$
 
 ## Sources
 
-Much of this information is adapted from [these Cornell lecture notes]([http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf](http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement 5 - multiple regression.pdf)) as well as [Wikipedia](https://en.wikipedia.org/wiki/Ordinary_least_squares). All Python code is mine.
+Much of this information is adapted from [these Cornell lecture notes](http://mezeylab.cb.bscb.cornell.edu/labmembers/documents/supplement%205%20-%20multiple%20regression.pdf) as well as [Wikipedia](https://en.wikipedia.org/wiki/Ordinary_least_squares). All Python code is mine.
