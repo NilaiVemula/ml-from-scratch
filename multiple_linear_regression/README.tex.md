@@ -8,6 +8,8 @@ $$
 
 where $\epsilon$ is the error in the model.
 
+## Explicit Solution
+
 To simplify this notation and make it easier to program, we can re-write this in terms of matrices as:
 
 $$
@@ -55,6 +57,18 @@ $$
 (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
 (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = \hat{\mathbf{\beta}}.
 $$
+
+### Alternative Solution
+
+Rather than inverting the matrices above, we can solve for $\mathbf{\beta}$ by solving a matrix equation using LU decomposition or another method. This is typically more computationally efficient and more precise.
+
+## Iterative Solution
+
+In practice, if $n$ and $k$ are sufficiently large, then the methods above are inefficient. Matrix operations will be computationally expensive, and storing these large matrices will take up significant memory. To solve this problem, the coefficients can be solved using an iterative solution to minimize the sum of squared residuals.
+
+### Gradient Descent
+
+One classic iterative solution is gradient descent. This procedure involves differentiating the sum of squared residuals and then following the steepest path to a local minima. For this procedure, we must introduce two parameters: the learning rate and the number of epochs.
 
 ## Evaluation Metrics
 
