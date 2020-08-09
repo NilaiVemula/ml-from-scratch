@@ -6,6 +6,8 @@ Multiple linear regression extends simple linear regression in one important way
 
 where <img src="/multiple_linear_regression/tex/7ccca27b5ccc533a2dd72dc6fa28ed84.svg?invert_in_darkmode&sanitize=true" align=middle width=6.672392099999992pt height=14.15524440000002pt/> is the error in the model.
 
+## Explicit Solution
+
 To simplify this notation and make it easier to program, we can re-write this in terms of matrices as:
 
 <p align="center"><img src="/multiple_linear_regression/tex/80781d4d815cdeee671e61d20352f026.svg?invert_in_darkmode&sanitize=true" align=middle width=95.25057795pt height=14.611878599999999pt/></p>
@@ -21,6 +23,18 @@ In a least-squares optimization, we try to minimize the sum of squared residuals
 and solving for <img src="/multiple_linear_regression/tex/2012e6a4e80d4d65bda472f3676c43ec.svg?invert_in_darkmode&sanitize=true" align=middle width=10.562281949999988pt height=31.50689519999998pt/> by:
 
 <p align="center"><img src="/multiple_linear_regression/tex/426e28715c4e82b130c4f1b6d169db10.svg?invert_in_darkmode&sanitize=true" align=middle width=583.7102155499999pt height=19.8630366pt/></p>
+
+### Alternative Solution
+
+Rather than inverting the matrices above, we can solve for <img src="/multiple_linear_regression/tex/885c729678a69db7f085b75c99d92ae2.svg?invert_in_darkmode&sanitize=true" align=middle width=10.16555099999999pt height=22.831056599999986pt/> by solving a matrix equation using LU decomposition or another method. This is typically more computationally efficient and more precise.
+
+## Iterative Solution
+
+In practice, if <img src="/multiple_linear_regression/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> and <img src="/multiple_linear_regression/tex/63bb9849783d01d91403bc9a5fea12a2.svg?invert_in_darkmode&sanitize=true" align=middle width=9.075367949999992pt height=22.831056599999986pt/> are sufficiently large, then the methods above are inefficient. Matrix operations will be computationally expensive, and storing these large matrices will take up significant memory. To solve this problem, the coefficients can be solved using an iterative solution to minimize the sum of squared residuals.
+
+### Gradient Descent
+
+One classic iterative solution is gradient descent. This procedure involves differentiating the sum of squared residuals and then following the steepest path to a local minima. For this procedure, we must introduce two parameters: the learning rate and the number of epochs.
 
 ## Evaluation Metrics
 
