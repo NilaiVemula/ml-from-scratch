@@ -19,5 +19,5 @@ comment:
   behavior: default
   require_changes: no
   
- ignore:
-   "[a-z_]+\/test\.py"
+ignore:
+  "[a-z_]+\/test\.py"
