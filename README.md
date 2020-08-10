@@ -1,6 +1,7 @@
 # ml-from-scratch
 
 ![Testing Badge](https://github.com/NilaiVemula/ml-from-scratch/workflows/Python%20application/badge.svg)
+[![codecov](https://codecov.io/gh/NilaiVemula/ml-from-scratch/branch/master/graph/badge.svg)](https://codecov.io/gh/NilaiVemula/ml-from-scratch)
 
 **Author**: Nilai Vemula
 
