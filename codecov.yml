@@ -20,4 +20,4 @@ comment:
   require_changes: no
   
 ignore:
-  "[a-z_]+\/test\.py"
+  "**/test.py"
