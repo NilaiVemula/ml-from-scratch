@@ -18,11 +18,17 @@ where:
 
 In a least-squares optimization, we try to minimize the sum of squared residuals (SSR) by optimizing our selection of <img src="/multiple_linear_regression/tex/885c729678a69db7f085b75c99d92ae2.svg?invert_in_darkmode&sanitize=true" align=middle width=10.16555099999999pt height=22.831056599999986pt/>. This is accomplished by defining our model predictions as:
 
-<p align="center"><img src="/multiple_linear_regression/tex/96e54dbe17640f2cd935fbe6e9ca8852.svg?invert_in_darkmode&sanitize=true" align=middle width=68.8837446pt height=18.9497979pt/></p>
+<p align="center"><img src="/multiple_linear_regression/tex/5336f1eb9958d04f4083a2db8b778101.svg?invert_in_darkmode&sanitize=true" align=middle width=68.8837446pt height=18.9497979pt/></p>
 
 and solving for <img src="/multiple_linear_regression/tex/2012e6a4e80d4d65bda472f3676c43ec.svg?invert_in_darkmode&sanitize=true" align=middle width=10.562281949999988pt height=31.50689519999998pt/> by:
 
-<p align="center"><img src="/multiple_linear_regression/tex/426e28715c4e82b130c4f1b6d169db10.svg?invert_in_darkmode&sanitize=true" align=middle width=583.7102155499999pt height=19.8630366pt/></p>
+<p align="center"><img src="/multiple_linear_regression/tex/5336f1eb9958d04f4083a2db8b778101.svg?invert_in_darkmode&sanitize=true" align=middle width=68.8837446pt height=18.9497979pt/></p>
+
+<p align="center"><img src="/multiple_linear_regression/tex/2a8a321ca0da042c86b2937e4d407245.svg?invert_in_darkmode&sanitize=true" align=middle width=118.1792601pt height=18.9497979pt/></p>
+
+<p align="center"><img src="/multiple_linear_regression/tex/449c9aee1ca0b1e931d393ed34442582.svg?invert_in_darkmode&sanitize=true" align=middle width=256.92689055pt height=19.8630366pt/></p>
+
+<p align="center"><img src="/multiple_linear_regression/tex/6e9666838b48f31cd0fe2df0854e5488.svg?invert_in_darkmode&sanitize=true" align=middle width=140.91062535pt height=19.8630366pt/></p>
 
 ### Alternative Solution
 
