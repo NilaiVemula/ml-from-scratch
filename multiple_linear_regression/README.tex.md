@@ -46,15 +46,24 @@ $$
 In a least-squares optimization, we try to minimize the sum of squared residuals (SSR) by optimizing our selection of $\mathbf{\beta}$. This is accomplished by defining our model predictions as:
 
 $$
-\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
+\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}
 $$
 
 and solving for $\hat{\beta}$ by:
 
 $$
-\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
-\mathbf{X}^T \hat{\mathbf{y}} = \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
-(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}\\
+\hat{\mathbf{y}} = \mathbf{X} \cdot \hat{\mathbf{\beta}}
+$$
+
+$$
+\mathbf{X}^T \hat{\mathbf{y}} = \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
+$$
+
+$$
+(\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \mathbf{X} \cdot \hat{\mathbf{\beta}}
+$$
+
+$$
 (\mathbf{X}^T\mathbf{X})^{-1} \mathbf{X}^T \hat{\mathbf{y}} = \hat{\mathbf{\beta}}.
 $$
 
